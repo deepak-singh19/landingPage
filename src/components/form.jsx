@@ -51,7 +51,7 @@ const Form = ({setSubmit, fSubmit}) => {
     <div>
         {
             !fSubmit?
-            <div  className='flex flex-col bg-white  border rounded-md py-[35px] md:w-[500px] w-[320px] justify-center items-center absolute top-[400px] left-[40px] md:top-[80px] md:left-[750px]'>
+            <div  className='flex flex-col bg-white  border rounded-md py-[35px] md:w-[500px] w-[320px] justify-center items-center absolute top-[400px] left-[28px] md:top-[80px] md:left-[750px]'>
             <form onSubmit={handleSubmit(onSubmit)} >
                 <div className='flex flex-col md:flex-row px-[30px] justify-between'>
                     <div className='flex flex-col'>
