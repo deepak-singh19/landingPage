@@ -172,9 +172,9 @@ const WhyUs = () => {
         <button onClick={()=>{goToTop();setPrivew(true);setSubmit(false) } } className='flex flex-row justify-center items-center'><span className='flex justify-center text-white text-base font-medium'>Request a call back</span> <MdOutlineArrowRightAlt size={'1.8em'} className='text-white pt-[3px] ml-[15px]'/></button>
     </div>
 
-    {
-        preview?<Form setSubmit={setSubmit} fSubmit={fSubmit}/>:<></>
-    }
+
+        <Form setSubmit={setSubmit} fSubmit={fSubmit}/>
+    
 
 
 </div>
@@ -277,11 +277,11 @@ const WhyUs = () => {
                 <button onClick={()=>{setPrivew(true); goToTop();setSubmit(false)} } className='flex flex-row justify-center  bg-[#F26621] w-[170px] items-center'><span className='flex justify-center text-white text-sm font-medium'>Inquire now</span> <MdOutlineArrowRightAlt size={'1.8em'} className='text-white pt-[3px] ml-[15px]'/></button>
             </div>
 
-            {
-
-                preview?<Form setSubmit={setSubmit} fSubmit={fSubmit} />:<></>
             
-            }
+
+                <Form setSubmit={setSubmit} fSubmit={fSubmit} />
+            
+            
 
 
 
