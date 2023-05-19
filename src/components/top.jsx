@@ -70,7 +70,7 @@ const Top = () => {
 
     <div className='flex relative w-full md:hidden'>
         <div className='w-full h-full'>
-            <img className='' src={Car2} alt='hero' />
+            <img className='w-full' src={Car2} alt='hero' />
         </div>
 
 
