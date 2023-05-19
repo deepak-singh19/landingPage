@@ -4,7 +4,7 @@ import Heroes from './components/heroes';
 
 function App() {
   return (
-    <div>
+    <div className='overflow-hidden w-fit'>
       <Heroes/>
       
       
